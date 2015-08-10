@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Fruit Picker</title>
+</head>
+<body>
+	<form action="/favourite_fruit" method='POST'>
+		<p>Best Fruit?</p>
+		{{#each fruits}}
+		<p><input type="radio" name="fruit" value="{{fruit}}" />{{fruit}}</p>
+		{{/fruits}}
+		<input type="submit" value="Submit" />
+	</form>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,19 @@
+{
+  "name": "mongouni",
+  "version": "1.0.0",
+  "description": "mongodb for node developers",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "consolidate": "^0.13.1",
+    "express": "^4.13.3",
+    "express-handlebars": "^2.0.1",
+    "mongodb": "^1.3.10",
+    "swig": "^1.4.2"
+  }
+}
